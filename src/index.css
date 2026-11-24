@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Kannada', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Malayalam', 'Noto Sans Bengali', 'Noto Sans Gujarati', 'Noto Sans Gurmukhi', 'Noto Sans Oriya', 'Noto Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html[dir="rtl"] body {
+  font-family: 'Noto Sans Arabic', 'Noto Nastaliq Urdu', 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.75;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Custom subtle scrollbar for obsidian dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* Custom range slider styling for dark obsidian theme */
+input[type="range"] {
+  accent-color: #14b8a6;
+}

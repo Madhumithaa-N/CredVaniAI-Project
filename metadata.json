@@ -1,0 +1,6 @@
+{
+  "name": "CredVani AI Loan Advisor",
+  "description": "Multilingual AI Loan Advisor to understand loans, compare options, calculate EMI, and choose with confidence across English, Hindi, Kannada, Tamil, and Telugu.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
